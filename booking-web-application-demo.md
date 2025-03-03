@@ -541,7 +541,9 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID]![image](https://github.com/user-attachments/assets/5fabadf6-c503-4abf-b15a-7503dad19287)
+
+
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,22 +555,26 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ PUT ข้อมูล]![image](https://github.com/user-attachments/assets/3e3481a6-062b-4e2e-b473-0d8aed8fdaff)
+
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ delete ข้อมูล]![image](https://github.com/user-attachments/assets/c6949c8f-cd8b-46e3-a64a-cac73d5dd947)
+
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
-![ผลการลบข้อมูล](images/postman-deleted-with-status.png)
+![ผลการลบข้อมูล]![image](https://github.com/user-attachments/assets/d6dba13f-708f-44ce-bec3-f79791217e9f)
+
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![รูปผลลัพธ์การ Delete ข้อมูล]![image](https://github.com/user-attachments/assets/6b6df9fd-2eb0-44e8-abac-f9ca66579e7c)
+
 
 
 
@@ -1040,7 +1046,8 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![รูปผลการรันหน้า front-end]![image](https://github.com/user-attachments/assets/e7c7c6a7-4440-49f6-b8a7-f028be13afb1)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1051,7 +1058,7 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 #### axios คืออะไร ?
 ```html
-  axios คืออะไร เขียนคำตอบที่นี่
+  axios คืออะไร เขียนคำตอบที่นี่ Axios คือไลบรารี JavaScript ที่ใช้สำหรับทำ HTTP requests จากเว็บเบราว์เซอร์และ Node.js โดยรองรับทั้งการส่งและรับข้อมูลผ่าน Promise-based API ซึ่งช่วยให้การจัดการคำขอ HTTP มีความสะดวกและมีประสิทธิภาพมากขึ้น
 ```
 3. ตั้งค่า Tailwind CSS:
 
@@ -1153,12 +1160,18 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![ผลการรัน]![image]![image]![image](https://github.com/user-attachments/assets/c105a6aa-c646-400d-829b-beb3529c44a9)
+
+
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
+![image](https://github.com/user-attachments/assets/96a74439-843d-43bc-b3f7-9ec12373bde3)
+
+
 ```
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
